@@ -174,3 +174,33 @@ blockquote{
     margin: 0 0.5rem;
     max-width: 150px;
 }
+
+/**********Footer Section**********/
+
+footer{
+    background-color: #3c3016;
+    padding: 2rem 0;
+}
+
+.icons{
+    text-align: center;
+}
+
+.icons .socials i{
+    font-size: 2rem;
+    color: grey;
+    padding: 1rem;
+    transition: all 0.4s ease;
+}
+
+.icons .socials i:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.icons .copyright p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color:white;
+    margin: 2rem 0;
+}
