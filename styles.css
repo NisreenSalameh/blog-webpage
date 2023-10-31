@@ -238,5 +238,7 @@ footer{
     main .content .content-img-container{
         height: 25rem;
     }
-    
+    .profile .profile-txt h3 {
+        margin-top: 2em;
+    }
 }
