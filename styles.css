@@ -214,11 +214,21 @@ footer{
         font-size: 1rem;
         padding: 0.5rem;
     }
+    
+    *{
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Abhaya Libre', serif;
+    }
 }
 
 
 /*Iphone 12 pro max*/
 @media screen and (max-width: 390px) {
+    main h2{
+        font-size: 2rem;
+    }
+
     h1{
         font-size: 2rem;
     }
