@@ -204,3 +204,28 @@ footer{
     color:white;
     margin: 2rem 0;
 }
+
+
+/********Responsiveness********/
+
+/*Ipad*/
+@media screen and (max-width: 768px) {
+    .nav-bar ul a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+
+/*Iphone 12 pro max*/
+@media screen and (max-width: 390px) {
+    h1{
+        font-size: 2rem;
+    }
+    .nav-bar{
+        padding: 0 2rem;
+    }
+    main .content .content-img-container{
+        height: 25rem;
+    }
+}
